@@ -1,5 +1,4 @@
-FROM python:latest
-
+FROM mcr.microsoft.com/azure-cli
 LABEL "com.github.actions.name"="azure-blob-storage-upload"
 LABEL "com.github.actions.description"="Uploads assets to Azure Blob Storage"
 LABEL "com.github.actions.icon"="box"
